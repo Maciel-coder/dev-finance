@@ -1,0 +1,25 @@
+
+/**Global=====================*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #f0f2f5;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Hearder =====================*/
+header{
+  background: #2d4a22;
+  padding: 2rem 0;
+  text-align: center;
+
+}
+
+
+#logo{
+  color: #fff;
+  font-weight: 100;
+}
