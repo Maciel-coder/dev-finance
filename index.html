@@ -1,75 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DevFinace$</title>
-  <link rel="stylesheet" href="/dev-finance/styles.css">
+  <link rel="stylesheet" href="/devfinace/dev-finance/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,200;1,400;1,700&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
 
   <header>
-    <h1 id="logo">dev.fiance$</h1>
+    <img src="/devfinace/dev-finance/assets/logo.svg" alt="Logo Dev Finance">
   </header>
 
   <main class="container">
     <section id="balance">
-      <h2>Balanço</h2>
+      <h2 class="sr-only">Balanço</h2>
 
       <div class="card">
-        <h3>Entradas</h3>
-        <p>R$ 5.000,00</p>
+        <h3>
+          <span>
+            Entradas
+          </span>
+          <img src="/devfinace/dev-finance/assets/income.svg" alt="imagem de entrada">
+        </h3>
+        <p>R$ 7.000,00</p>
       </div>
 
       <div class="card">
-        <h3>Saidas</h3>
+        <h3>
+          <span>
+            Saidas
+          </span>
+          <img src="/devfinace/dev-finance/assets/expense.svg" alt="imagem de Saidas">
+        </h3>
         <p>R$ 5.000,00</p>
       </div>
 
       <div class="card total">
-        <h3>Total</h3>
-      <p>R$ 3.000,00</p>
+        <h3>
+          <span>
+            Total
+          </span>
+          <img src="/devfinace/dev-finance/assets/total.svg" alt="imagem de total">
+        </h3>
+        <p>R$ 3.000,00</p>
 
       </div>
 
     </section>
-   
+
     <section id="transaction">
-      <h2>Transações</h2>
+      <h2 class="sr-only">Transações</h2>
+
+      <!---Criando as clases button e new-->
+      <a href="#" class="button new">Nova Transação</a>
       <table id="data-table">
-        <thead><!--constroi o cabecalho da tabela-->
-          <tr><!--constroi as linhas da tabela -->
-            <th>Descrição</th><!--constroi as colunas -->
+        <thead>
+          <!--constroi o cabecalho da tabela-->
+          <tr>
+            <!--constroi as linhas da tabela -->
+            <th>Descrição</th>
+            <!--constroi as colunas -->
             <th>Valor</th>
             <th>Data</th>
+            <th></th>
           </tr>
         </thead>
 
-        <tbody><!--constroi oconteudo da tabela -->
-          <tr><!--constroi as linhas da tabela -->
-            <td class="description">Luz</td><!--constroi as colunas -->
+        <tbody>
+          <!--constroi oconteudo da tabela -->
+          <tr>
+            <!--constroi as linhas da tabela -->
+            <td class="description">Luz</td>
+            <!--constroi as colunas -->
             <td class="expense">R$ 500,00</td>
             <td class="date">23/01/2021</td>
+            <td>
+              <img src="/devfinace/dev-finance/assets/minus.svg" alt="minimo">
+            </td>
           </tr>
 
-          <tr><!--constroi as linhas da tabela -->
-            <td class="description">Criação website</td><!--constroi as colunas -->
+          <tr>
+            <!--constroi as linhas da tabela -->
+            <td class="description">Criação website</td>
+            <!--constroi as colunas -->
             <td class="income">R$ 5.000,00</td>
             <td class="date">23/01/2021</td>
+            <td>
+              <img src="/devfinace/dev-finance/assets/plus.svg" alt="minimo">
+            </td>
           </tr>
 
-          <tr><!--constroi as linhas da tabela -->
-            <td class="description">Internet</td><!--constroi as colunas -->
+          <tr>
+            <!--constroi as linhas da tabela -->
+            <td class="description">Internet</td>
+            <!--constroi as colunas -->
             <td class="expense">R$ 200,00</td>
             <td class="date">23/01/2021</td>
+            <td>
+              <img src="/devfinace/dev-finance/assets/minus.svg" alt="minimo">
+            </td>
           </tr>
         </tbody>
       </table>
     </section>
   </main>
 
-  <footer><p>dev.finance$</p></footer>
+  
+
+  <footer>
+    <p>dev.finance$</p>
+  </footer>
 </body>
+
 </html>
