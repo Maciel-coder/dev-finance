@@ -1,50 +1,25 @@
-# dev-finance
+## DEV-FINANCED
+  Uma Aplicação utilizada para controle de finças
+  onde é possivel adiocionar as receitas e as
+  despesas e vsualizar em nos paineis em forma
+  de card as somas dos valores de entrada,
+  saida e total, alem de uma tabela mostrando o 
+  istorico das movimentações
 
-<td class="amount">Luz</td>
-            <!--constroi as colunas -->
-            <td class="expense">R$ 500,00</td>
-            <td class="date">23/01/2021</td>
-            <td>
-              <img src="./assets/minus.svg" alt="minimo">
-</td>
+## TECNOLOGIAS UTILIZADAS
+    * Html
+    * Css
+    * JavaScript
 
-<td class="amount">Criação website</td>
-            <!--constroi as colunas -->
-            <td class="income">R$ 5.000,00</td>
-            <td class="date">23/01/2021</td>
-            <td>
-              <img src="./assets/plus.svg" alt="minimo">
-            </td>
+## DESENVOLVIMENT
+    Essa aplição foi desenvolvida durante a
+    maratona Discover; um evento reaizado pela
+    Rocketseat com foco naqulesque estão 
+    iniciando no mundo da programação.
 
-<td class="amount">Internet</td>
-            <!--constroi as colunas -->
-            <td class="expense">R$ 200,00</td>
-            <td class="date">23/01/2021</td>
-            <td>
-              <img src="./assets/minus.svg" alt="minimo">
-            </td>
+ ### Tela Principal
+    ![Tela ini](./assets/devFinance.png)
+### Tela de ormulario
+  ![Tela form](./assets/devFinanceModal.png)
 
-             transactions = [
-    {
-     
-      description: 'Luz',
-      amount: -50000,
-      date: '02/02/2021'
-    },
-  
-    {
-      
-      description: 'criação website',
-      amount: 500000,
-      date: '02/02/2021'
-    },
-  
-    {
-      
-      description: 'internet',
-      amount: -20000,
-      date: '02/02/2021'
-    },
-  
-  
-  ],
+ 
