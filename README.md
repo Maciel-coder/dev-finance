@@ -1,4 +1,4 @@
-## DEV-FINANCED
+## DEV-FINANCE
   Uma Aplicação utilizada para controle de finças
   onde é possivel adiocionar as receitas e as
   despesas e vsualizar em nos paineis em forma
@@ -11,14 +11,14 @@
     * Css
     * JavaScript
 
-## DESENVOLVIMENT
+## DESENVOLVIMENTO
     Essa aplição foi desenvolvida durante a
     maratona Discover; um evento reaizado pela
     Rocketseat com foco naqulesque estão 
     iniciando no mundo da programação.
 
  ### Tela Principal
-    ![Tela ini](./assets/devFinance.png)
+  ![Tela ini](./assets/devFinance.png)
 ### Tela de ormulario
   ![Tela form](./assets/devFinanceModal.png)
 
