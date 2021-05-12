@@ -10,17 +10,17 @@ const Modal = {
     //alert("abro mpdal")
     document //utilizado para procurar elementos html
       .querySelector(".modal-overlay")
-      .classList.add("active")
+      .classList.add("active");
   },
   close() {
     //fechar o modal
     //remover a class active do modal
     document
       .querySelector(".modal-overlay")
-      .classList.remove("active")
-  }
+      .classList.remove("active");
+  },
 
-}
+};
 
 const Storage = {
   get(){
@@ -30,10 +30,11 @@ const Storage = {
   },
 
   set(transactions){
-    localStorage.getItem("dev.finance:transactions", JSON.stringify(transactions))
+    localStorage.setItem("dev.finance:transactions", JSON.stringify(transactions))
 
   }
 }
+Storage.get()
 
 //const com as functions que calculam:
 //entradas, saidas e total
@@ -279,9 +280,7 @@ const App ={
 
     //prenche com os dados apos a inicializar o app
     Transaction.all.forEach(DOM.addTransaction) //=> {
-      //DOM.addTransaction(transaction, index)
-    //} )
-    
+        
     DOM.updateBalance()
 
     Storage.set(Transaction.all)
