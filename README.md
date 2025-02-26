@@ -16,7 +16,7 @@
     maratona Discover; um evento reaizado pela
     Rocketseat com foco naqulesque estão 
     iniciando no mundo da programação.
-##LINK
+## LINK
     https://dev-finance-delta.vercel.app/
   
 
